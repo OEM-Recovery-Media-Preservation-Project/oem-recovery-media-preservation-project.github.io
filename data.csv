@@ -1,8 +1,10 @@
 Brand,Series,SeriesModel,Model,ProductID,OS,Language,URL
-HP (Hewlett-Packard),Pavilion,dv Series,Recovery Kits,"Universal",Windows,Language,https://archive.org/details/recovery-15-8-03-28-am-12-6-2023
+HP (Hewlett-Packard),Pavilion,dv Series,Recovery Kits,"Universal",Windows,Russian,https://archive.org/details/recovery-15-8-03-28-am-12-6-2023
+
 HP (Hewlett-Packard),Pavilion,a6000,a6452.it,(82ITv3PrA1),Windows Vista Home Premium 32-bit,English,https://archive.org/details/a6452it
-HP (Hewlett-Packard),Pavilion,dv6000,dv6000,Windows XP Media Center Edition 2005 32-bit,French,https://archive.org/details/hp_dv6000_recoveryfr
-HP (Hewlett-Packard),Pavilion,dv6000,dv6000 (419855-242),Windows XP Home Edition SP2,Polish,https://archive.org/details/419855-242
+
+HP (Hewlett-Packard),Pavilion,dv6000,dv6000,,Windows XP Media Center Edition 2005 32-bit,French,https://archive.org/details/hp_dv6000_recoveryfr
+HP (Hewlett-Packard),Pavilion,dv6000,dv6000,(419855-242),Windows XP Home Edition SP2,Polish,https://archive.org/details/419855-242
 HP (Hewlett-Packard),Pavilion,dv6000,dv6000z,,Windows XP Home Edition,English,https://archive.org/details/hp-recovery-kit-435337-001-for-hp-pavilion-dv6000
 HP (Hewlett-Packard),Pavilion,dv6000,dv6105ca,,Windows XP Home Edition,English,https://archive.org/details/hp-recovery-kit-435337-001-for-hp-pavilion-dv6000
 HP (Hewlett-Packard),Pavilion,dv6000,dv6105us,,Windows XP Home Edition,English,https://archive.org/details/hp-recovery-kit-435337-001-for-hp-pavilion-dv6000
@@ -23,4 +25,4 @@ HP (Hewlett-Packard),Pavilion,dv6000,dv6705ca,(KC309UA#ABA),Windows Vista Home P
 HP (Hewlett-Packard),Pavilion,dv6000,dv6768se,(KC313UA#ABA),Windows Vista Home Premium 32-bit,English,https://archive.org/details/hp-dv-6768se-recovery-1-of-3
 HP (Hewlett-Packard),Pavilion,dv6000,dv6780se,(KC413UA#ABA),Windows Vista Home Premium 32-bit,English,https://archive.org/details/disk-2_20250724
 
-Sony VAIO,You can also use the Sony VAIO Recovery Patcher here to bypass BIOS model checks.,,https://vaiolibrary.com/Sony_VAIO_Recovery_Patcher_(SVRP)
+Sony VAIO,You can also use the Sony VAIO Recovery Patcher here to bypass BIOS model checks.,,,https://vaiolibrary.com/Sony_VAIO_Recovery_Patcher_(SVRP)

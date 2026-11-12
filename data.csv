@@ -1,28 +1,28 @@
-Brand,Series,SeriesModel,Model,ProductID,OS,Language,URL
-HP (Hewlett-Packard),Pavilion,dv Series Recovery Kits,Universal,Windows,Russian,https://archive.org/details/recovery-15-8-03-28-am-12-6-2023
+Brand,ProductSeries,Series,SeriesModel,Model,ProductID,OS,Language,URL
+HP (Hewlett-Packard),Pavilion,dv Series,Universal Recovery Kits,Universal,Universal,Windows,Russian,https://archive.org/details/recovery-15-8-03-28-am-12-6-2023
 
-HP (Hewlett-Packard),Pavilion,a6000,a6452.it,82ITv3PrA1,Windows Vista Home Premium 32-bit,English,https://archive.org/details/a6452it
+HP (Hewlett-Packard),Pavilion,a-Series,a6000,a6452.it,82ITv3PrA1,Windows Vista Home Premium 32-bit,English,https://archive.org/details/a6452it
 
-HP (Hewlett-Packard),Pavilion,dv6000,dv6000,RR371EA#ABF,Windows XP Media Center Edition 2005 32-bit,French,https://archive.org/details/hp_dv6000_recoveryfr
-HP (Hewlett-Packard),Pavilion,dv6000,dv6000,419855-242,Windows XP Home Edition SP2,Polish,https://archive.org/details/419855-242
-HP (Hewlett-Packard),Pavilion,dv6000,dv6000z,,Windows XP Home Edition,English,https://archive.org/details/hp-recovery-kit-435337-001-for-hp-pavilion-dv6000
-HP (Hewlett-Packard),Pavilion,dv6000,dv6105ca,,Windows XP Home Edition,English,https://archive.org/details/hp-recovery-kit-435337-001-for-hp-pavilion-dv6000
-HP (Hewlett-Packard),Pavilion,dv6000,dv6105us,,Windows XP Home Edition,English,https://archive.org/details/hp-recovery-kit-435337-001-for-hp-pavilion-dv6000
-HP (Hewlett-Packard),Pavilion,dv6000,dv6109om,,Windows XP Home Edition,English,https://archive.org/details/hp-recovery-kit-435337-001-for-hp-pavilion-dv6000
-HP (Hewlett-Packard),Pavilion,dv6000,dv6110ca,,Windows XP Home Edition,English,https://archive.org/details/hp-recovery-kit-435337-001-for-hp-pavilion-dv6000
-HP (Hewlett-Packard),Pavilion,dv6000,dv6113ca,,Windows XP Home Edition,English,https://archive.org/details/hp-recovery-kit-435337-001-for-hp-pavilion-dv6000
-HP (Hewlett-Packard),Pavilion,dv6000,dv6115ca,,Windows XP Home Edition,English,https://archive.org/details/hp-recovery-kit-435337-001-for-hp-pavilion-dv6000
-HP (Hewlett-Packard),Pavilion,dv6000,dv6119us,,Windows XP Home Edition,English,https://archive.org/details/hp-recovery-kit-435337-001-for-hp-pavilion-dv6000
-HP (Hewlett-Packard),Pavilion,dv6000,dv6125se,,Windows XP Home Edition,English,https://archive.org/details/hp-recovery-kit-435337-001-for-hp-pavilion-dv6000
-HP (Hewlett-Packard),Pavilion,dv6000,dv6135nr,3250973,Windows XP Media Center Edition 2005,English,https://archive.org/details/dv6135nrxpmce2005recovery
-HP (Hewlett-Packard),Pavilion,dv6000,dv6140ca,,Windows XP Home Edition,English,https://archive.org/details/hp-recovery-kit-435337-001-for-hp-pavilion-dv6000
-HP (Hewlett-Packard),Pavilion,dv6000,dv6165cl,,Windows XP Home Edition,English,https://archive.org/details/hp-recovery-kit-435337-001-for-hp-pavilion-dv6000
-HP (Hewlett-Packard),Pavilion,dv6000,dv6308ca,GA218UA#ABL,Windows Vista Home Premium 32-bit,English,https://archive.org/details/dv6308carecovery
-HP (Hewlett-Packard),Pavilion,dv6000,dv6356eu,,Windows Vista Home Premium 32-bit,Portugese,https://archive.org/details/dv6356eu-recoverydisk-pt-pt
-HP (Hewlett-Packard),Pavilion,dv6000,dv6408ca,GL916UA#ABC,Windows Vista Home Premium 32-bit,English,https://archive.org/details/dv6308carecovery
-HP (Hewlett-Packard),Pavilion,dv6000,dv6500,AMD,Windows Vista Home Premium 32-bit,English,https://archive.org/details/HP-Recovery-for-AMD-HP-Pavilion-dv6500
-HP (Hewlett-Packard),Pavilion,dv6000,dv6705ca,KC309UA#AB),Windows Vista Home Premium 32-bit,English,https://archive.org/details/1_20250726_20250726_0611
-HP (Hewlett-Packard),Pavilion,dv6000,dv6768se,KC313UA#ABA,Windows Vista Home Premium 32-bit,English,https://archive.org/details/hp-dv-6768se-recovery-1-of-3
-HP (Hewlett-Packard),Pavilion,dv6000,dv6780se,KC413UA#ABA,Windows Vista Home Premium 32-bit,English,https://archive.org/details/disk-2_20250724
+HP (Hewlett-Packard),Pavilion,dv Series,dv6000,dv6000,RR371EA#ABF,Windows XP Media Center Edition 2005 32-bit,French,https://archive.org/details/hp_dv6000_recoveryfr
+HP (Hewlett-Packard),Pavilion,dv Series,dv6000,dv6000,419855-242,Windows XP Home Edition SP2,Polish,https://archive.org/details/419855-242
+HP (Hewlett-Packard),Pavilion,dv Series,dv6000,dv6000z,,Windows XP Home Edition,English,https://archive.org/details/hp-recovery-kit-435337-001-for-hp-pavilion-dv6000
+HP (Hewlett-Packard),Pavilion,dv Series,dv6000,dv6105ca,,Windows XP Home Edition,English,https://archive.org/details/hp-recovery-kit-435337-001-for-hp-pavilion-dv6000
+HP (Hewlett-Packard),Pavilion,dv Series,dv6000,dv6105us,,Windows XP Home Edition,English,https://archive.org/details/hp-recovery-kit-435337-001-for-hp-pavilion-dv6000
+HP (Hewlett-Packard),Pavilion,dv Series,dv6000,dv6109om,,Windows XP Home Edition,English,https://archive.org/details/hp-recovery-kit-435337-001-for-hp-pavilion-dv6000
+HP (Hewlett-Packard),Pavilion,dv Series,dv6000,dv6110ca,,Windows XP Home Edition,English,https://archive.org/details/hp-recovery-kit-435337-001-for-hp-pavilion-dv6000
+HP (Hewlett-Packard),Pavilion,dv Series,dv6000,dv6113ca,,Windows XP Home Edition,English,https://archive.org/details/hp-recovery-kit-435337-001-for-hp-pavilion-dv6000
+HP (Hewlett-Packard),Pavilion,dv Series,dv6000,dv6115ca,,Windows XP Home Edition,English,https://archive.org/details/hp-recovery-kit-435337-001-for-hp-pavilion-dv6000
+HP (Hewlett-Packard),Pavilion,dv Series,dv6000,dv6119us,,Windows XP Home Edition,English,https://archive.org/details/hp-recovery-kit-435337-001-for-hp-pavilion-dv6000
+HP (Hewlett-Packard),Pavilion,dv Series,dv6000,dv6125se,,Windows XP Home Edition,English,https://archive.org/details/hp-recovery-kit-435337-001-for-hp-pavilion-dv6000
+HP (Hewlett-Packard),Pavilion,dv Series,dv6000,dv6135nr,3250973,Windows XP Media Center Edition 2005,English,https://archive.org/details/dv6135nrxpmce2005recovery
+HP (Hewlett-Packard),Pavilion,dv Series,dv6000,dv6140ca,,Windows XP Home Edition,English,https://archive.org/details/hp-recovery-kit-435337-001-for-hp-pavilion-dv6000
+HP (Hewlett-Packard),Pavilion,dv Series,dv6000,dv6165cl,,Windows XP Home Edition,English,https://archive.org/details/hp-recovery-kit-435337-001-for-hp-pavilion-dv6000
+HP (Hewlett-Packard),Pavilion,dv Series,dv6000,dv6308ca,GA218UA#ABL,Windows Vista Home Premium 32-bit,English,https://archive.org/details/dv6308carecovery
+HP (Hewlett-Packard),Pavilion,dv Series,dv6000,dv6356eu,,Windows Vista Home Premium 32-bit,Portugese,https://archive.org/details/dv6356eu-recoverydisk-pt-pt
+HP (Hewlett-Packard),Pavilion,dv Series,dv6000,dv6408ca,GL916UA#ABC,Windows Vista Home Premium 32-bit,English,https://archive.org/details/dv6308carecovery
+HP (Hewlett-Packard),Pavilion,dv Series,dv6000,dv6500,AMD,Windows Vista Home Premium 32-bit,English,https://archive.org/details/HP-Recovery-for-AMD-HP-Pavilion-dv6500
+HP (Hewlett-Packard),Pavilion,dv Series,dv6000,dv6705ca,KC309UA#AB),Windows Vista Home Premium 32-bit,English,https://archive.org/details/1_20250726_20250726_0611
+HP (Hewlett-Packard),Pavilion,dv Series,dv6000,dv6768se,KC313UA#ABA,Windows Vista Home Premium 32-bit,English,https://archive.org/details/hp-dv-6768se-recovery-1-of-3
+HP (Hewlett-Packard),Pavilion,dv Series,dv6000,dv6780se,KC413UA#ABA,Windows Vista Home Premium 32-bit,English,https://archive.org/details/disk-2_20250724
 
-Sony VAIO,You can also use the Sony VAIO Recovery Patcher here to bypass BIOS model checks.,,,https://vaiolibrary.com/Sony_VAIO_Recovery_Patcher_(SVRP)
+Sony VAIO,You can also use the Sony VAIO Recovery Patcher here to use different model's recovery media on your model and bypass BIOS model checks.,,,https://vaiolibrary.com/Sony_VAIO_Recovery_Patcher_(SVRP)

@@ -241,7 +241,7 @@
     }
 
     .subseries-row {
-      font-size: 0.95krem;
+      font-size: 0.95rem;
       color: var(--muted);
       padding-left: 2rem;
     }
@@ -282,22 +282,32 @@
     .models-list {
       display: flex;
       flex-direction: column;
-      gap: 0.35rem;
+      gap: 0.5rem;
       padding: 0.5rem 0.5rem 0.5rem 2.5rem;
     }
 
     .model-item {
       font-size: 0.92rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 0.5rem;
     }
 
     a.model-link, a.direct-link {
       color: var(--link-blue);
       text-decoration: none;
       cursor: pointer;
+      font-weight: 500;
     }
 
     a.model-link:hover, a.direct-link:hover {
       text-decoration: underline;
+    }
+
+    .model-meta {
+      font-size: 0.85rem;
+      color: var(--muted);
     }
 
     .direct-link-row {
@@ -487,7 +497,7 @@
         return;
       }
 
-      // Structure: Brand -> { directLinks: [], seriesMap: { seriesName: { subSeriesName: [ {model, url} ] } } }
+      // Structure: Brand -> { directLinks: [], seriesMap: { seriesName: { subSeriesName: [ itemObj ] } } }
       const brandsMap = {};
       data.forEach(item => {
         if (!brandsMap[item.brand]) {
@@ -511,10 +521,7 @@
         }
 
         if (item.model || item.seriesModel) {
-          brandsMap[item.brand].seriesMap[seriesName][subSeriesKey].push({
-            model: item.model || item.seriesModel,
-            url: item.url
-          });
+          brandsMap[item.brand].seriesMap[seriesName][subSeriesKey].push(item);
         }
       });
 
@@ -529,7 +536,7 @@
             <div class="brand-content">
         `;
 
-        // Render direct links (clean clickable links without warning boxes/dropdown arrows)
+        // Render direct links
         brandData.directLinks.forEach(link => {
           html += `
             <div class="direct-link-row">
@@ -548,8 +555,8 @@
             <div class="series-content">
           `;
 
-          // Render SubSeries / SeriesModel level (e.g. dv6000, Windows XP, T-Series) as expandable sub-sections
-          for (const [subName, models] of Object.entries(subMap)) {
+          // Render SubSeries / SeriesModel level
+          for (const [subName, items] of Object.entries(subMap)) {
             if (subName) {
               html += `
                 <div class="subseries-row" onclick="toggleAccordion(this)">
@@ -559,7 +566,7 @@
                 <div class="subseries-content">
                   <div class="models-list">
               `;
-              models.forEach(m => {
+              items.forEach(m => {
                 html += '<div class="model-item">';
                 if (m.url && m.model !== subName) {
                   html += `<a class="model-link" href="${escapeHtml(m.url)}" target="_blank" rel="noopener">${escapeHtml(m.model)}</a>`;
@@ -568,6 +575,16 @@
                 } else {
                   html += `<span class="unlinked-model">${escapeHtml(m.model)}</span>`;
                 }
+
+                // Render ProductID, OS, and Language metadata nicely
+                let metaParts = [];
+                if (m.productID) metaParts.push(m.productID);
+                if (m.os) metaParts.push(m.os);
+                if (m.language) metaParts.push(m.language);
+                if (metaParts.length > 0) {
+                  html += `<span class="model-meta">— ${escapeHtml(metaParts.join(' | '))}</span>`;
+                }
+
                 html += '</div>';
               });
               html += `
@@ -577,13 +594,22 @@
             } else {
               // Direct models under series without subseries
               html += '<div class="models-list">';
-              models.forEach(m => {
+              items.forEach(m => {
                 html += '<div class="model-item">';
                 if (m.url) {
                   html += `<a class="model-link" href="${escapeHtml(m.url)}" target="_blank" rel="noopener">${escapeHtml(m.model)}</a>`;
                 } else {
                   html += `<span class="unlinked-model">${escapeHtml(m.model)}</span>`;
                 }
+
+                let metaParts = [];
+                if (m.productID) metaParts.push(m.productID);
+                if (m.os) metaParts.push(m.os);
+                if (m.language) metaParts.push(m.language);
+                if (metaParts.length > 0) {
+                  html += `<span class="model-meta">— ${escapeHtml(metaParts.join(' | '))}</span>`;
+                }
+
                 html += '</div>';
               });
               html += '</div>';

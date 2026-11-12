@@ -13,11 +13,7 @@
       --text: #0f172a;
       --muted: #475569;
       --accent: #2563eb;
-      --accent-hover: #1d4ed8;
       --link-blue: #2563eb;
-      --warn-bg: #fffbeb;
-      --warn-border: #f59e0b;
-      --warn-text: #92400e;
     }
 
     * { box-sizing: border-box; }
@@ -30,7 +26,6 @@
       line-height: 1.5;
     }
 
-    /* Header & Navigation */
     header {
       background: #ffffff;
       border-bottom: 1px solid var(--border);
@@ -70,7 +65,6 @@
       padding: 2.5rem 1.5rem 1rem 1.5rem;
     }
 
-    /* Views */
     .view {
       display: none;
     }
@@ -78,7 +72,6 @@
       display: block;
     }
 
-    /* Home View Styling matching Figure 1 */
     .home-hero {
       text-align: center;
       padding: 2rem 0 3rem 0;
@@ -137,7 +130,6 @@
       font-size: 0.95rem;
     }
 
-    /* Full-page-width wrapper so logos.png scales across nearly the whole viewport width */
     .logos-full-width-wrap {
       width: 94%;
       max-width: 1800px;
@@ -172,7 +164,6 @@
       text-decoration: underline;
     }
 
-    /* Downloads View Styling matching Figures 2 & 3 */
     .downloads-header {
       text-align: center;
       margin-bottom: 2rem;
@@ -218,25 +209,41 @@
       pointer-events: none;
     }
 
-    /* Accordion Brand Groups matching Figures 2 & 3 */
+    /* Accordion Tree Styling */
     .brand-accordion {
       border-top: 1px solid var(--border);
-      margin-bottom: 0;
     }
 
-    .brand-row {
+    .brand-row, .series-row, .subseries-row {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 1rem 0.5rem;
+      padding: 0.75rem 0.5rem;
       border-bottom: 1px solid var(--border);
       cursor: pointer;
       user-select: none;
       font-weight: 500;
     }
 
-    .brand-row:hover {
+    .brand-row:hover, .series-row:hover, .subseries-row:hover {
       background: var(--surface-hover);
+    }
+
+    .brand-row {
+      font-size: 1.05rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .series-row {
+      font-size: 0.98rem;
+      color: #1e293b;
+      padding-left: 1rem;
+    }
+
+    .subseries-row {
+      font-size: 0.95krem;
+      color: var(--muted);
+      padding-left: 2rem;
     }
 
     .accordion-arrow {
@@ -245,94 +252,58 @@
       transition: transform 0.2s ease;
     }
 
-    .brand-row.expanded .accordion-arrow {
+    .brand-row.expanded .accordion-arrow,
+    .series-row.expanded .accordion-arrow,
+    .subseries-row.expanded .accordion-arrow {
       transform: rotate(180deg);
     }
 
-    .brand-content {
+    .brand-content, .series-content, .subseries-content {
       display: none;
-      padding: 0.5rem 0 1rem 1rem;
-      border-bottom: 1px solid var(--border);
       background: #fafafa;
     }
 
-    .brand-content.expanded {
+    .brand-content.expanded, .series-content.expanded, .subseries-content.expanded {
       display: block;
     }
 
-    .special-note {
-      background: var(--warn-bg);
-      border: 1px solid var(--warn-border);
-      color: var(--warn-text);
-      padding: 0.75rem 1rem;
-      border-radius: 4px;
-      margin-bottom: 1rem;
-      font-size: 0.9rem;
-    }
-
-    .special-note a {
-      color: var(--accent);
-      text-decoration: underline;
-    }
-
-    /* Series & Model Tree matching Figure 3 */
-    .series-block {
-      margin-bottom: 0.75rem;
-    }
-
-    .series-row {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0.5rem 0.5rem;
-      cursor: pointer;
-      font-weight: 500;
-      color: #1e293b;
-    }
-
-    .series-row:hover {
-      background: var(--surface-hover);
-      border-radius: 4px;
+    .brand-content {
+      padding: 0.25rem 0 0.5rem 0.5rem;
     }
 
     .series-content {
-      display: none;
+      padding-left: 0.5rem;
+    }
+
+    .subseries-content {
       padding-left: 1.5rem;
-      margin-top: 0.25rem;
-    }
-
-    .series-content.expanded {
-      display: block;
-    }
-
-    .subseries-title {
-      font-weight: 500;
-      color: var(--muted);
-      padding: 0.3rem 0;
-      font-size: 0.92rem;
     }
 
     .models-list {
       display: flex;
       flex-direction: column;
-      gap: 0.3rem;
-      padding-left: 0.5rem;
-      margin-bottom: 0.5rem;
+      gap: 0.35rem;
+      padding: 0.5rem 0.5rem 0.5rem 2.5rem;
     }
 
     .model-item {
       font-size: 0.92rem;
     }
 
-    /* Clickable model names in blue link style */
-    a.model-link {
+    a.model-link, a.direct-link {
       color: var(--link-blue);
       text-decoration: none;
       cursor: pointer;
     }
 
-    a.model-link:hover {
+    a.model-link:hover, a.direct-link:hover {
       text-decoration: underline;
+    }
+
+    .direct-link-row {
+      padding: 0.6rem 0.5rem;
+      font-size: 0.95rem;
+      border-bottom: 1px solid var(--border);
     }
 
     .unlinked-model {
@@ -356,7 +327,7 @@
     </nav>
   </header>
 
-  <!-- HOME VIEW (Figure 1) -->
+  <!-- HOME VIEW -->
   <div id="homeView" class="view active">
     <div class="container">
       <div class="home-hero">
@@ -374,7 +345,6 @@
       </div>
     </div>
 
-    <!-- Full-page-width wrapper so logos.png scales to nearly the whole width of the viewport -->
     <div class="logos-full-width-wrap">
       <img src="logos.png" alt="OEM Brand Logos" class="logos-banner" onerror="this.style.display='none'; document.getElementById('logosFallback').style.display='block';" />
       <div id="logosFallback" class="logos-fallback" style="display:none;">
@@ -383,7 +353,7 @@
     </div>
   </div>
 
-  <!-- DOWNLOADS VIEW (Figures 2 & 3) -->
+  <!-- DOWNLOADS VIEW -->
   <div id="downloadsView" class="view">
     <div class="container" style="max-width: 900px;">
       <div class="downloads-header">
@@ -397,9 +367,7 @@
         </div>
       </div>
 
-      <div id="repositoryContainer">
-        <!-- Dynamically rendered accordion tree -->
-      </div>
+      <div id="repositoryContainer"></div>
     </div>
   </div>
 
@@ -411,7 +379,6 @@
     const CSV_FILE = 'data.csv';
     let repositoryData = [];
 
-    // Switch views and update browser history so mouse back/forward buttons work seamlessly
     function navigateTo(viewName, pushHistory = true) {
       document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
       document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
@@ -432,7 +399,6 @@
       window.scrollTo(0, 0);
     }
 
-    // Listen for browser/mouse back and forward navigation
     window.addEventListener('popstate', (event) => {
       const stateView = event.state && event.state.view ? event.state.view : (window.location.hash === '#downloads' ? 'downloads' : 'home');
       navigateTo(stateView, false);
@@ -521,12 +487,16 @@
         return;
       }
 
+      // Structure: Brand -> { directLinks: [], seriesMap: { seriesName: { subSeriesName: [ {model, url} ] } } }
       const brandsMap = {};
       data.forEach(item => {
-        if (!brandsMap[item.brand]) brandsMap[item.brand] = { notes: [], seriesMap: {} };
+        if (!brandsMap[item.brand]) {
+          brandsMap[item.brand] = { directLinks: [], seriesMap: {} };
+        }
 
+        // Check if this row is a direct link note (like Sony VAIO Patcher)
         if (item.series && !item.seriesModel && !item.model && item.url && item.series.toLowerCase().includes('patcher')) {
-          brandsMap[item.brand].notes.push({ text: item.series, url: item.url });
+          brandsMap[item.brand].directLinks.push({ text: item.series, url: item.url });
           return;
         }
 
@@ -535,7 +505,7 @@
           brandsMap[item.brand].seriesMap[seriesName] = {};
         }
 
-        const subSeriesKey = item.seriesModel || 'General / Unspecified';
+        const subSeriesKey = item.seriesModel || '';
         if (!brandsMap[item.brand].seriesMap[seriesName][subSeriesKey]) {
           brandsMap[item.brand].seriesMap[seriesName][subSeriesKey] = [];
         }
@@ -552,51 +522,75 @@
       for (const [brand, brandData] of Object.entries(brandsMap)) {
         html += `
           <div>
-            <div class="brand-row" onclick="toggleBrand(this)">
+            <div class="brand-row" onclick="toggleAccordion(this)">
               <span>${escapeHtml(brand)}</span>
               <span class="accordion-arrow">v</span>
             </div>
             <div class="brand-content">
         `;
 
-        brandData.notes.forEach(note => {
+        // Render direct links (clean clickable links without warning boxes/dropdown arrows)
+        brandData.directLinks.forEach(link => {
           html += `
-            <div class="special-note">
-              <strong>Note:</strong> ${escapeHtml(note.text)}
-              ${note.url ? `<a href="${escapeHtml(note.url)}" target="_blank" rel="noopener">Link</a>` : ''}
+            <div class="direct-link-row">
+              <a class="direct-link" href="${escapeHtml(link.url)}" target="_blank" rel="noopener">${escapeHtml(link.text)}</a>
             </div>
           `;
         });
 
+        // Render Series level
         for (const [seriesName, subMap] of Object.entries(brandData.seriesMap)) {
           html += `
-            <div class="series-block">
-              <div class="series-row" onclick="toggleSeries(this)">
-                <span>${escapeHtml(seriesName)}</span>
-                <span class="accordion-arrow">v</span>
-              </div>
-              <div class="series-content">
+            <div class="series-row" onclick="toggleAccordion(this)">
+              <span>${escapeHtml(seriesName)}</span>
+              <span class="accordion-arrow">v</span>
+            </div>
+            <div class="series-content">
           `;
 
+          // Render SubSeries / SeriesModel level (e.g. dv6000, Windows XP, T-Series) as expandable sub-sections
           for (const [subName, models] of Object.entries(subMap)) {
-            if (subName !== 'General / Unspecified' && subName !== seriesName) {
-              html += `<div class="subseries-title">${escapeHtml(subName)}</div>`;
-            }
-            html += '<div class="models-list">';
-            models.forEach(m => {
-              html += '<div class="model-item">';
-              if (m.url) {
-                html += `<a class="model-link" href="${escapeHtml(m.url)}" target="_blank" rel="noopener">${escapeHtml(m.model)}</a>`;
-              } else {
-                html += `<span class="unlinked-model">${escapeHtml(m.model)}</span>`;
-              }
+            if (subName) {
+              html += `
+                <div class="subseries-row" onclick="toggleAccordion(this)">
+                  <span>${escapeHtml(subName)}</span>
+                  <span class="accordion-arrow">v</span>
+                </div>
+                <div class="subseries-content">
+                  <div class="models-list">
+              `;
+              models.forEach(m => {
+                html += '<div class="model-item">';
+                if (m.url && m.model !== subName) {
+                  html += `<a class="model-link" href="${escapeHtml(m.url)}" target="_blank" rel="noopener">${escapeHtml(m.model)}</a>`;
+                } else if (m.url) {
+                  html += `<a class="model-link" href="${escapeHtml(m.url)}" target="_blank" rel="noopener">${escapeHtml(m.model)}</a>`;
+                } else {
+                  html += `<span class="unlinked-model">${escapeHtml(m.model)}</span>`;
+                }
+                html += '</div>';
+              });
+              html += `
+                  </div>
+                </div>
+              `;
+            } else {
+              // Direct models under series without subseries
+              html += '<div class="models-list">';
+              models.forEach(m => {
+                html += '<div class="model-item">';
+                if (m.url) {
+                  html += `<a class="model-link" href="${escapeHtml(m.url)}" target="_blank" rel="noopener">${escapeHtml(m.model)}</a>`;
+                } else {
+                  html += `<span class="unlinked-model">${escapeHtml(m.model)}</span>`;
+                }
+                html += '</div>';
+              });
               html += '</div>';
-            });
-            html += '</div>';
+            }
           }
 
           html += `
-              </div>
             </div>
           `;
         }
@@ -611,16 +605,12 @@
       container.innerHTML = html;
     }
 
-    function toggleBrand(el) {
+    function toggleAccordion(el) {
       el.classList.toggle('expanded');
       const content = el.nextElementSibling;
-      content.classList.toggle('expanded');
-    }
-
-    function toggleSeries(el) {
-      el.classList.toggle('expanded');
-      const content = el.nextElementSibling;
-      content.classList.toggle('expanded');
+      if (content && (content.classList.contains('brand-content') || content.classList.contains('series-content') || content.classList.contains('subseries-content'))) {
+        content.classList.toggle('expanded');
+      }
     }
 
     function filterRepository() {
@@ -637,9 +627,10 @@
 
       renderRepository(filtered);
 
-      document.querySelectorAll('.brand-row, .series-row').forEach(row => {
+      document.querySelectorAll('.brand-row, .series-row, .subseries-row').forEach(row => {
         row.classList.add('expanded');
-        row.nextElementSibling.classList.add('expanded');
+        const content = row.nextElementSibling;
+        if (content) content.classList.add('expanded');
       });
     }
 
@@ -652,7 +643,6 @@
         .replace(/'/g, '&#39;');
     }
 
-    // Initialize view based on initial hash or load event
     window.addEventListener('DOMContentLoaded', () => {
       loadData();
       if (window.location.hash === '#downloads') {

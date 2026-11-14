@@ -1,4 +1,8 @@
 Brand,ProductSeries,Series,SeriesModel,Model,ProductID,OS,Language,URL
+
+
+
+
 HP (Hewlett-Packard),Pavilion,dv Series,Universal Recovery Kits,Universal,Universal,Windows,Russian,https://archive.org/details/recovery-15-8-03-28-am-12-6-2023
 
 HP (Hewlett-Packard),Pavilion,a-Series,a1000,a1720n,RT641AA#ABA,Windows Vista Home Premium RTM,English,https://archive.org/details/hp-pavilion-a1720n-recovery
@@ -24,8 +28,8 @@ HP (Hewlett-Packard),Pavilion,dv Series,dv2000,dv2106ea,,Windows,English,https:/
 HP (Hewlett-Packard),Pavilion,dv Series,dv2000,dv2624la,,Recovery Partition,Spanish,https://archive.org/details/hp-dv-2624la
 HP (Hewlett-Packard),Pavilion,dv Series,dv2000,dv2910us,486572-001 and 486572-001 and 499117-B21,Windows Vista Home Premium 32-bit SP1,English,https://archive.org/details/dv2910usvistasp1recovery
 
-HP (Hewlett-Packard),Pavilion,dv Series,dv4000,dv4000,SysId2=0x09EC,Recovery Partition,Windows XP Professional SP2,Multilingual,https://archive.org/details/recovery-partition-for-various-hp-and-compaq-models/
-HP (Hewlett-Packard),Pavilion,dv Series,dv4000,dv4100,SysId2=0x09EC,Recovery Partition,Windows XP Professional SP2,Multilingual,https://archive.org/details/recovery-partition-for-various-hp-and-compaq-models/
+HP (Hewlett-Packard),Pavilion,dv Series,dv4000,dv4000,SysId2=0x09EC (Recovery Partition),Windows XP Professional SP2,Multilingual,https://archive.org/details/recovery-partition-for-various-hp-and-compaq-models/
+HP (Hewlett-Packard),Pavilion,dv Series,dv4000,dv4100,SysId2=0x09EC (Recovery Partition),Windows XP Professional SP2,Multilingual,https://archive.org/details/recovery-partition-for-various-hp-and-compaq-models/
 
 HP (Hewlett-Packard),Pavilion,dv Series,dv5000,dv5000,Application and Driver Recovery DVD 412184-001,Windows XP Media Center Edition 32-bit,English,https://archive.org/details/swsetup_202610
 HP (Hewlett-Packard),Pavilion,dv Series,dv5000,dv5040us,,Windows XP Media Center Edition 2005 SP2,English,https://archive.org/details/HPdv5040us
@@ -45,6 +49,7 @@ HP (Hewlett-Packard),Pavilion,dv Series,dv6000,dv6125se,,Windows XP Home Edition
 HP (Hewlett-Packard),Pavilion,dv Series,dv6000,dv6135nr,3250973,Windows XP Media Center Edition 2005,English,https://archive.org/details/dv6135nrxpmce2005recovery
 HP (Hewlett-Packard),Pavilion,dv Series,dv6000,dv6140ca,,Windows XP Home Edition,English,https://archive.org/details/hp-recovery-kit-435337-001-for-hp-pavilion-dv6000
 HP (Hewlett-Packard),Pavilion,dv Series,dv6000,dv6165cl,,Windows XP Home Edition,English,https://archive.org/details/hp-recovery-kit-435337-001-for-hp-pavilion-dv6000
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6187,Not specified,Windows XP (version unknown),Turkish,https://archive.org/details/13_20250921_20250921
 HP (Hewlett-Packard),Pavilion,dv Series,dv6000,dv6308ca,GA218UA#ABL,Windows Vista Home Premium 32-bit,English,https://archive.org/details/dv6308carecovery
 HP (Hewlett-Packard),Pavilion,dv Series,dv6000,dv6356eu,,Windows Vista Home Premium 32-bit,Portugese,https://archive.org/details/dv6356eu-recoverydisk-pt-pt
 HP (Hewlett-Packard),Pavilion,dv Series,dv6000,dv6408ca,GL916UA#ABC,Windows Vista Home Premium 32-bit,English,https://archive.org/details/dv6308carecovery
@@ -64,13 +69,104 @@ HP (Hewlett-Packard),Pavilion,dv Series,dv9000,dv9035nr,,Windows XP Media Center
 HP (Hewlett-Packard),Pavilion,dv Series,dv9000,dv9233eu,NVIDIA,Windows Vista Home Premium 32-bit,English,https://archive.org/details/hp-pavilion-dv9000-dv9233eu-recovery-dvds
 HP (Hewlett-Packard),Pavilion,dv Series,dv9000,dv9910s,FE694UA#ABA (NVIDIA),Windows,English,https://archive.org/details/23_20240208_202402
 
+HP (Hewlett-Packard),Pavilion,dv Series,dv3,dv3 2000 series,Application and Driver Recovery CD (600735-B21),Windows 7,,https://archive.org/details/600735-b21
+
+HP (Hewlett-Packard),Pavilion,dv Series,dv4,dv4/dv4t 1000 series,Application and Driver Recovery CD (600735-B21),Windows 7,,https://archive.org/details/600735-b21
+
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6/dv6t 1000/2000 series,Application and Driver Recovery CD (600735-B21),Windows 7,,https://archive.org/details/600735-b21
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6/dv6t 6000 series,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6/dv6-1400 series,HP System Recovery DVD (598321-251),Windows 7,English (US),https://archive.org/details/598321-251
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6 series,VM222AA#ABA,Windows 7 Home Premium,,https://archive.org/details/hppdv6recovery
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-1108xx,,Windows,English,https://archive.org/details/hppaviliondv6recovery
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-1140ea,,Windows Vista Home Premium 32-bit SP1,English,https://archive.org/details/hp-pavilion-dv6-1140ea-recovery-dvds
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-1230us,,Windows,,https://archive.org/details/hp-pavillion-dv-6-1230us-d-2
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-1230us,,Windows Vista,,https://archive.org/details/hpdv-6-1230-usrec-2of-3
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-1245dx,,Windows Vista Home Premium SP1 64-bit,English (US),https://archive.org/details/HPdv6-1245dxVistaHPSP1x64RecoveryDVDs
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-1355dx,Recovery Partition,Windows 7,,https://archive.org/details/dv-6-1300-00-00
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-1400,598321-251,Windows 7,English/Russian,https://archive.org/details/598321-251
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-1438er,598321-251,Windows 7,English/Russian,https://archive.org/details/598321-251
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-1445er,598321-251,Windows 7,English/Russian,https://archive.org/details/598321-251
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-1439er,598321-251,Windows 7,English/Russian,https://archive.org/details/598321-251
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-1440er,598321-251,Windows 7,English/Russian,https://archive.org/details/598321-251
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-1410er,598321-251,Windows 7,English/Russian,https://archive.org/details/598321-251
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-1450er,598321-251,Windows 7,English/Russian,https://archive.org/details/598321-251
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-1460er,598321-251,Windows 7,English/Russian,https://archive.org/details/598321-251
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-2010sa,VN013EA#ABA/VN013EA#ABU,Windows 7 Recovery Partition,English,https://archive.org/details/hp-dv-6-2010sa-hp-recovery
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-2100,,Windows,,https://archive.org/details/recovery-23-22-14-19-27-10-2023
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-2155dx,,Windows 7 Home Premium,English,https://archive.org/details/hp-2155dx
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6t-3000,VX070AV (614115-001),Windows 7 Home Premium 64-bit,,https://archive.org/details/boot_20260514
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-3000,,Windows 7,English (UK),https://archive.org/details/recovery-34-08-19-02-04-11-2023
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-3077ca,Recovery USB image,Windows 7,English,https://archive.org/details/DV6-3077CA
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6108us,,Windows 7 SP1,English,https://archive.org/details/hpdv6recovery
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6t-6000 series,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6111nr,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6112nr,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6114us,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6116nr,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6118nr,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6120us,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6121he,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6123nr,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6126nr,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6127cl,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6128nr,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6130us,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6136nr,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6138nr,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6148nr,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6150us,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6152nr,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6154nr,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6157nr,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6158nr,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6159us,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6161he,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6163cl,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6167cl,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6169us,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6170us,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6172nr,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6173cl,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6180us,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6181nr,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6182nr,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6186nr,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6190us,HP System Recovery DVD (658862-001),Windows 7 Home Premium SP1,English (US),https://archive.org/details/658862-001
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6145dx,,Windows 7 Home Premium SP1 64-bit,English,https://archive.org/details/HPPaviliondv66145dxRecoveryMedia
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6151ss,QC805EA#ABE (648941-001),Windows 7 Home Premium,"Spanish, Multilingual",https://archive.org/details/648941-071
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6173cl,QE029UA#ABA ,Windows 7 Home Premium 64-bit,English,https://archive.org/details/hp-dv6-dvd
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-6178sl,,Windows 7 Home Premium,,https://archive.org/details/6178slrecovery_202507
+HP (Hewlett-Packard),Pavilion,dv Series,dv6,dv6-7013cl,,Windows 7 Home Premium,,https://archive.org/details/hp-7013cl
+
+HP (Hewlett-Packard),Pavilion,dv Series,dv7,dv7/dv7t 2000/3000 series,Application and Driver Recovery CD (600735-B21),Windows 7,,https://archive.org/details/600735-b21
+
+HP (Hewlett-Packard),Pavilion,dv Series,dv8,dv8/dv8t 1000/2000 series,Application and Driver Recovery CD (600735-B21),Windows 7,,https://archive.org/details/600735-b21
+
+HP (Hewlett-Packard),Pavilion,dm Series,dm3,dm3 1000 series,Application and Driver Recovery CD (600735-B21),Windows 7,,https://archive.org/details/600735-b21
+HP (Hewlett-Packard),Pavilion,dm Series,dm4,dm4 1000 series,Application and Driver Recovery CD (600735-B21),Windows 7,,https://archive.org/details/600735-b21
+
+HP (Hewlett-Packard),Pavilion,g-Series,g61,g61 400/500/600 series,Application and Driver Recovery CD (600735-B21),Windows 7,,https://archive.org/details/600735-b21
+HP (Hewlett-Packard),Pavilion,g-Series,g71,g71/g71t 400-series,Application and Driver Recovery CD (600735-B21),Windows 7,,https://archive.org/details/600735-b21
+
 HP (Hewlett-Packard),Compaq,nx-Series,nx4000,nx4820,SysId7=0x3090,Windows XP Professional SP2,Multilingual,https://archive.org/details/recovery-partition-for-various-hp-and-compaq-models
+
+
+
 
 Compaq,Presario,V-Series,V2000,SysId7=0x3090,Recovery Partition,Windows XP Professional SP2,Multilingual,https://archive.org/details/recovery-partition-for-various-hp-and-compaq-models/
 Compaq,Presario,V-Series,V3000,V3000,436598-001,Windows,English,https://archive.org/details/hp-recovery-kit-436598-001-for-hp-pavilion-dv2000-and-compaq-v3000
 Compaq,Presario,V-Series,V4000/V4100,SysId2=0x09EC,Recovery Partition,Windows XP Professional SP2,Multilingual,https://archive.org/details/recovery-partition-for-various-hp-and-compaq-models/
+
 Compaq,Presario,M-Series,M2000,SysId3=0x3082/SysId8=0x3091/SysId9=0x3093/SysId11=0x3097,Recovery Partition,Windows XP Professional SP2,Multilingual,https://archive.org/details/recovery-partition-for-various-hp-and-compaq-models/
+
 Compaq,Presario,R-Series,R4000/R4100,SysId4=0x3085/SysId5=0x308C,Recovery Partition,Windows XP Professional SP2,Multilingual,https://archive.org/details/recovery-partition-for-various-hp-and-compaq-models/
 
+Compaq,Presario,CQ-series,CQ40,CQ40 700-series,Application and Driver Recovery CD (600735-B21),Windows 7,,https://archive.org/details/600735-b21
+Compaq,Presario,CQ-series,CQ60,CQ60-615dx,Application and Driver Recovery CD (600735-B21),Windows 7,,https://archive.org/details/600735-b21
+Compaq,Presario,CQ-series,CQ61,CQ61 400-series,Application and Driver Recovery CD (600735-B21),Windows 7,,https://archive.org/details/600735-b21
+Compaq,Presario,CQ-series,CQ71,CQ71 400-series,Application and Driver Recovery CD (600735-B21),Windows 7,,https://archive.org/details/600735-b21
 
-Sony VAIO,You can also use the Sony VAIO Recovery Patcher here to use different model's recovery media on your model and bypass BIOS model checks.,,,https://vaiolibrary.com/Sony_VAIO_Recovery_Patcher_(SVRP)
+
+
+
+Sony VAIO,You can also use the Sony VAIO Recovery Patcher here to use different model's recovery media on your model and bypass BIOS model checks.,,,https://vaiolibrary.com/Sony_VAIO_Recovery_Patcher_(SVRP),,,,
